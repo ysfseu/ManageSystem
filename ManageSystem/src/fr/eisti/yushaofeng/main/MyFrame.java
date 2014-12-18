@@ -1,10 +1,16 @@
-package fr.eisti.yushaofeng;
+package fr.eisti.yushaofeng.main;
 
-import java.awt.Frame;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-class MyFrame extends Frame implements WindowListener {
+import javax.swing.JFrame;
+
+class MyFrame extends JFrame implements WindowListener {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public void windowActivated(WindowEvent evt) {
 	}

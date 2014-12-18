@@ -1,4 +1,4 @@
-package fr.eisti.yushaofeng;
+package fr.eisti.yushaofeng.main;
 
 /**
  * Definition d'un 'Executeur'.

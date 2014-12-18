@@ -1,15 +1,20 @@
-package fr.eisti.yushaofeng;
+package fr.eisti.yushaofeng.main;
 
-import java.awt.Button;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
 
 /**
  * Bouton qui sera son propre listener.
  */
-class MyButton extends Button implements ActionListener {
+class MyButton extends JButton implements ActionListener {
 	// ----------------------------------------------------------------------
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Executeur theExecuteur = null;
 	int theMission = -1;
 
